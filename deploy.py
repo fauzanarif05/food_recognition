@@ -13,7 +13,7 @@ st.set_page_config(
 )
 
 # Load the trained model
-MODEL_PATH = "D:\\fauzan\\1KULIAH\\SEMESTER 3\\DATA MINING\\food_recognition\\best_model.keras"
+MODEL_PATH = "best_model.keras"
 model = load_model(MODEL_PATH)
 
 # Define class labels

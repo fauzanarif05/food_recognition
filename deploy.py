@@ -89,7 +89,7 @@ if uploaded_file is not None:
 
         # Display nutrition information
         if predicted_label in nutrition_info:
-            st.write(f"### 🍴 Nutrition Information for **{predicted_label}** 🍴")
+            st.write(f"### 🍴 Nutrition Information (per serving) for **{predicted_label}** 🍴")
             calories, protein, fat, carbs = nutrition_info[predicted_label].split(", ")
             
             # Use Markdown for better styling

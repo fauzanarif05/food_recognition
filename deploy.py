@@ -107,7 +107,3 @@ if uploaded_file is not None:
         st.error(f"An error occurred: {e}")
 else:
     st.write("Please upload an image file to proceed.")
-
-# Footer
-st.write("\n")
-st.write("Developed with TensorFlow and Streamlit.")
